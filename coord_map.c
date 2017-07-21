@@ -112,7 +112,6 @@ int coord_map_set(coord_map* map, int x, int y, int value) {
 		if (coord_map_resize(map, x) != 0) {
 			return -1;
 		}
-
 	}
 
 	cx = map->size / 2;

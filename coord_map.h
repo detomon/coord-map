@@ -34,7 +34,6 @@
 #pragma once
 
 #include <stdlib.h>
-#include <stdint.h>
 
 /**
  * Defines values of an x-coordinate.
