@@ -10,7 +10,7 @@ static inline size_t size_for_coord(int a) {
 }
 
 static inline int coord_in_list(int a, size_t size) {
-	return size_for_coord(a) < size;
+	return size_for_coord(a) <= size;
 }
 
 static int coord_map_resize(coord_map* map, int x) {
